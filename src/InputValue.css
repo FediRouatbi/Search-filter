@@ -1,0 +1,28 @@
+.input {
+  border-radius: 3px 0px 0px 3px;
+  border: none;
+  outline: none;
+  background-color: #ffe3e3;
+
+  font-size: 2rem;
+  min-height: 4rem;
+  width: 100%;
+  padding-left: 3rem;
+}
+.input::placeholder {
+  color: black;
+}
+.search {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.search .fa-magnifying-glass {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0.5rem;
+  position: absolute;
+  font-size: 2rem;
+  font-family: "FontAwesome";
+}
