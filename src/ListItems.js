@@ -4,8 +4,6 @@ import "./ListItems.css";
 const ListItems = (props) => {
   let words = "";
 
-  console.log(props.data);
-
   words = props.data.map((word, i) => {
     return (
       <h1 className="item" key={word.id ? word.id : i}>
